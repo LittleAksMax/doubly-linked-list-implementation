@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include "linkedlist.h"
 
-typedef struct {
-    double x, y;
-} Node;
-
 int main()
 {
     node_t *head = create_node(5);
